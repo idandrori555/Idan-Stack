@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@types/bun": "^1.2.21",
+    "@types/express": "^5.0.3",
+    "bun": "^1.2.21",
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "bun run index.ts"
+  }
+}
