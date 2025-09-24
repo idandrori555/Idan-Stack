@@ -1,0 +1,16 @@
+{
+  "name": "idan-stack",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && bun dev",
+    "frontend": "cd frontend && bun dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
